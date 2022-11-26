@@ -1,0 +1,23 @@
+package interface;
+
+interface Add {
+
+	 public int add(int a,int b);  
+}
+
+class addition implements Add
+{
+	public static void main(String...args) {
+		// TODO Auto-generated method stub
+		{	
+		Add d=(x,y)->
+		{
+			return x+y;
+			};
+			
+System.out.println(d.add(5,7));
+	
+
+	}
+}
+}
